@@ -32,13 +32,13 @@ This is a collection of algorithms I implemented as an exam preparation (first s
 - quicksort
 
 
-<img align="right" src="https://raw.githubusercontent.com/Janniku9/AlgColle/master/images/image_2019-10-25_14-13-15.png" width="400"/>
+<img align="right" src="https://raw.githubusercontent.com/Janniku9/AlgColle/master/images/image_2019-10-25_14-13-15.png" width="100"/>
 
 
 
-<img align="right" src="https://raw.githubusercontent.com/Janniku9/AlgColle/master/images/image_2019-10-25_14-12-01.png" width="400"/>
+<img align="right" src="https://raw.githubusercontent.com/Janniku9/AlgColle/master/images/image_2019-10-25_14-12-01.png" width="100"/>
 
 
 
-<img align="right" src="https://raw.githubusercontent.com/Janniku9/AlgColle/master/images/image_2019-10-25_14-12-44.png" width="400"/>
+<img align="right" src="https://raw.githubusercontent.com/Janniku9/AlgColle/master/images/image_2019-10-25_14-12-44.png" width="100"/>
 
