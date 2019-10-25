@@ -1,4 +1,5 @@
-package AlgsFromScript;
+package searchingAndSorting;
+import main.Util;
 
 public class QuickSort {
     public static int[] quickSort(int[] A) {

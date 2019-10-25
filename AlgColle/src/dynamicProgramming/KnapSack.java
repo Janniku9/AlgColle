@@ -1,4 +1,4 @@
-package AlgsFromScript;
+package dynamicProgramming;
 
 public class KnapSack {
     public static int [][] DP (int [] V, int []W, int w) {

@@ -1,7 +1,7 @@
-package AlgsFromScript;
+package dataStructures;
 
 public class Stack<T> {
-    int length = 0;
+    public int length = 0;
     Node<T> top;
 
     public Stack () {

@@ -1,4 +1,5 @@
-package AlgsFromScript;
+package searchingAndSorting;
+import dataStructures.*;
 
 public class HeapSort {
     public static int [] heapSort (int [] A) {

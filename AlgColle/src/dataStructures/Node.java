@@ -1,4 +1,4 @@
-package AlgsFromScript;
+package dataStructures;
 
 public class Node<T> {
     T value;

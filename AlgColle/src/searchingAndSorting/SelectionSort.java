@@ -1,4 +1,5 @@
-package AlgsFromScript;
+package searchingAndSorting;
+import main.Util;
 
 public class SelectionSort {
 

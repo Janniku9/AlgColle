@@ -1,4 +1,5 @@
-package AlgsFromScript;
+package dataStructures;
+import main.Util;
 
 public class MaxHeap {
     public int [] A;

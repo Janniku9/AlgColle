@@ -1,4 +1,5 @@
-package AlgsFromScript;
+package dynamicProgramming;
+import main.Util;
 
 public class LAT {
     public static int LATSquared (int [] A) {

@@ -1,4 +1,4 @@
-package AlgsFromScript;
+package searchingAndSorting;
 
 public class SubSetSum {
     public static Boolean [][] DP (int[] A, int s) {

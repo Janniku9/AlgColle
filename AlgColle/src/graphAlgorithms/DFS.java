@@ -1,6 +1,7 @@
-package AlgsFromScript;
+package graphAlgorithms;
+import dataStructures.*;
 
-public class TiefenSuche {
+public class DFS {
     public static int[] depthSearch (Graph graph, int v) {
         Stack<Integer> stack = new Stack<Integer>();
         boolean[] visited = new boolean[graph.n];

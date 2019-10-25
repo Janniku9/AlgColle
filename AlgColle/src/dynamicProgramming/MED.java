@@ -1,4 +1,4 @@
-package AlgsFromScript;
+package dynamicProgramming;
 
 public class MED {
     public static int[][] MEDDP (String string1, String string2) {

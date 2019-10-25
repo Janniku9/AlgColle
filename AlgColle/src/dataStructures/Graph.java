@@ -1,8 +1,9 @@
-package AlgsFromScript;
+package dataStructures;
+import main.Util;
 
 public class Graph {
-    int n;
-    int [][] ADJ;
+    public int n;
+    public int [][] ADJ;
     int [][] List;
 
     public Graph (int n) {

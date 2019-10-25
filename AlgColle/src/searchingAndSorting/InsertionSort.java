@@ -1,4 +1,4 @@
-package AlgsFromScript;
+package searchingAndSorting;
 
 public class InsertionSort {
 

@@ -1,22 +1,26 @@
-package AlgsFromScript;
+package main;
+import graphAlgorithms.*;
+import dataStructures.*;
+import searchingAndSorting.*;
+import dynamicProgramming.*;
 
 public class MainTest {
     public static void main(String[] args) {
-        //testSortingAlgorithm();
-        //testSearch();
-        //testLAT();
-        //testPartition();
-        //testLGT();
-        //testMED();
-        //testSubsetSum();
-        //testKnapSack();
-        //testPrintTree();
-        //testStack();
-        //testQueue();
-        //testGraph();
-        //testTiefenSuche();
-        //testBreitenSuche();
-        //testInfiniteKnapsack();
+        testSortingAlgorithm();
+        testSearch();
+        testLAT();
+        testPartition();
+        testLGT();
+        testMED();
+        testSubsetSum();
+        testKnapSack();
+        testPrintTree();
+        testStack();
+        testQueue();
+        testGraph();
+        testDFS();
+        testBFS();
+        testInfiniteKnapsack();
     }
 
     public static void testSortingAlgorithm () {
@@ -202,8 +206,8 @@ public class MainTest {
         Util.printTable(g.calculateList(g.ADJ));
     }
 
-    public static void testTiefenSuche () {
-        Util.Debug("Tiefensuche");
+    public static void testDFS () {
+        Util.Debug("DFS");
         System.out.print(ConsoleColors.BLUE);
         Util.line(ConsoleColors.BLUE,100);
         System.out.println("");
@@ -221,11 +225,11 @@ public class MainTest {
         Graph g = new Graph(A);
         Util.printTable(g.calculateList(g.ADJ));
 
-        Util.printArray(TiefenSuche.depthSearch(g, 0));
+        Util.printArray(DFS.depthSearch(g, 0));
     }
 
-    public static void testBreitenSuche () {
-        Util.Debug("Breitensuche");
+    public static void testBFS () {
+        Util.Debug("BFS");
         System.out.print(ConsoleColors.BLUE);
         Util.line(ConsoleColors.BLUE,100);
         System.out.println("");
@@ -243,7 +247,7 @@ public class MainTest {
         Graph g = new Graph(A);
         Util.printTable(g.calculateList(g.ADJ));
 
-        Util.printArray(BreitenSuche.BFS(g, 0));
+        Util.printArray(BFS.BFS(g, 0));
     }
 
     public static void testInfiniteKnapsack () {

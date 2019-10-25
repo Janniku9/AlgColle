@@ -1,4 +1,4 @@
-package AlgsFromScript;
+package searchingAndSorting;
 
 public class ExponentialSearch {
     public static void main(String[] args) {

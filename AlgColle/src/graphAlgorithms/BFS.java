@@ -1,6 +1,7 @@
-package AlgsFromScript;
+package graphAlgorithms;
+import dataStructures.*;
 
-public class BreitenSuche {
+public class BFS {
     public static int[] BFS (Graph g, int v) {
         int [][] list = g.calculateList(g.ADJ);
         boolean [] visited = new boolean[list.length];

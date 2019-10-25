@@ -1,4 +1,4 @@
-package AlgsFromScript;
+package dataStructures;
 
 public class Queue<T> {
     int length = 0;

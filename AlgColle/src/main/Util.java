@@ -1,8 +1,4 @@
-package AlgsFromScript;
-
-import com.sun.org.apache.xpath.internal.SourceTree;
-
-import javax.management.monitor.GaugeMonitor;
+package main;
 
 public class Util {
     public static int[] swap (int[] A, int i, int j) {

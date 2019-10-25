@@ -1,4 +1,6 @@
-package AlgsFromScript;
+package dataStructures;
+import main.Util;
+
 
 public class MinHeap {
     int [] A;

@@ -1,4 +1,4 @@
-package AlgsFromScript;
+package dynamicProgramming;
 
 public class LGT {
     public static int LGTLength (String string1, String string2) {
@@ -7,7 +7,7 @@ public class LGT {
         return DP[DP.length-1][DP[0].length-1];
     }
 
-    static int[][] LGTDP (String string1, String string2) {
+    public static int[][] LGTDP (String string1, String string2) {
         String [] s1 = string1.split("");
         String [] s2 = string2.split("");
 

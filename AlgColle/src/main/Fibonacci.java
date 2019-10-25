@@ -1,5 +1,4 @@
-package AlgsFromScript;
-
+package main;
 public class Fibonacci {
     public static int getFibonacciMemo (int n) {
         int [] fib = new int [Math.max(3, n+1)];
